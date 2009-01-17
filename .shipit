@@ -1,6 +1,8 @@
-steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
+steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN, Twitter
 
-svk.tagpattern = //mirror/handlino/tags/Template-Plugin-Num2Word-%v
+git.tagpattern = release-%v
 
 CheckChangeLog.files = Changes
+
+twitter.config = /Users/gugod/.twitterrc
 

@@ -2,14 +2,14 @@ package Template::Plugin::Num2Word;
 
 use warnings;
 use strict;
-use v5.8.0;
+use 5.008000;
 use base qw(Template::Plugin::VMethods);
 use vars qw(@SCALAR_OPS);
 
 use Lingua::Num2Word;
 @SCALAR_OPS = qw(to_word);
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.30';
 
 sub to_word {
     my $str = shift;

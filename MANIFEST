@@ -2,21 +2,21 @@
 .shipit
 Changes
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
-inc/Module/Install/Makefile/Name.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Template/Plugin/Num2Word.pm
 Makefile.PL
-MANIFEST
-META.yml			# Will be created by "make dist"
+MANIFEST			This list of files
+META.yml
 README
 t/00.load.t
 t/01.simple.t
-t/perlcritic.t
-t/pod-coverage.t
-t/pod.t
+xt/perlcritic.t
+xt/pod-coverage.t
+xt/pod.t
