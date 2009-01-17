@@ -1,1 +1,5 @@
 META.yml
+inc/
+Makefile
+Makefile.old
+
